@@ -1,0 +1,2 @@
+# Miniprojekti
+Linux gaming essentials
