@@ -8,4 +8,4 @@ Linux gaming essentials
 - Proton
 - Ajurit
 - GameMode
-- MagoHud
+- MangoHud
