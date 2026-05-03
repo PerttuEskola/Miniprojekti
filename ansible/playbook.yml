@@ -1,1 +1,89 @@
-- name
+---
+- name: Konfiguroi Linux-pelikone (Steam, Lutris, Discord, jne.)
+  hosts: localhost
+  connection: local
+  become: yes # Vaatii pääkäyttäjän (sudo) oikeudet pakettien asennukseen
+
+  vars:
+    # Määritetään asennusta tekevä käyttäjä, jotta config-tiedostot menevät oikeaan kotikansioon
+    user_name: "{{ lookup('env', 'USER') }}"
+    # Määritetään ladattava Proton-GE versio
+    proton_ge_version: "GE-Proton8-25"
+    proton_ge_url: "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/{{ proton_ge_version }}/{{ proton_ge_version }}.tar.gz"
+
+  tasks:
+    - name: Ota i386-arkkitehtuuri käyttöön (Steam ja 32-bit ajurit)
+      command: dpkg --add-architecture i386
+      register: add_arch
+      changed_when: false
+
+    - name: Päivitä apt-välimuisti
+      apt:
+        update_cache: yes
+
+    - name: Asenna avoimet Vulkan-ajurit (AMD / Intel)
+      apt:
+        name:
+          - mesa-vulkan-drivers
+          - mesa-vulkan-drivers:i386
+          - libvulkan1
+          - libvulkan1:i386
+          - vulkan-tools
+        state: present
+      # Huom! NVIDIAn suljetut ajurit asennetaan yleensä 'nvidia-driver-535' tyyppisellä paketilla
+
+    - name: Asenna pelityökalut repoista (Steam, Lutris, GameMode, MangoHud)
+      apt:
+        name:
+          - steam-installer # Joissain distroissa pelkkä 'steam'
+          - lutris
+          - gamemode
+          - mangohud
+        state: present
+
+    - name: Lataa Discord .deb-paketti
+      get_url:
+        url: "https://discord.com/api/download?platform=linux&format=deb"
+        dest: "/tmp/discord.deb"
+
+    - name: Asenna Discord
+      apt:
+        deb: "/tmp/discord.deb"
+        state: present
+
+    # -- KÄYTTÄJÄKOHTAISET ASETUKSET (become: no) --
+
+    - name: Luo hakemisto Proton-GE:lle
+      become: no
+      file:
+        path: "/home/{{ user_name }}/.steam/root/compatibilitytools.d"
+        state: directory
+        mode: '0755'
+
+    - name: Lataa ja pura Proton-GE
+      become: no
+      unarchive:
+        src: "{{ proton_ge_url }}"
+        dest: "/home/{{ user_name }}/.steam/root/compatibilitytools.d/"
+        remote_src: yes
+        creates: "/home/{{ user_name }}/.steam/root/compatibilitytools.d/{{ proton_ge_version }}"
+      notify: Huomauta Steamin uudelleenkäynnistyksestä
+
+    - name: Luo MangoHud-hakemisto käyttäjälle
+      become: no
+      file:
+        path: "/home/{{ user_name }}/.config/MangoHud"
+        state: directory
+        mode: '0755'
+
+    - name: Kopioi MangoHud-konfiguraatio
+      become: no
+      copy:
+        src: files/MangoHud.conf
+        dest: "/home/{{ user_name }}/.config/MangoHud/MangoHud.conf"
+        mode: '0644'
+
+  handlers:
+    - name: Huomauta Steamin uudelleenkäynnistyksestä
+      debug:
+        msg: "Proton-GE on asennettu. Jos Steam on auki, käynnistä se uudelleen, jotta uusi Proton ilmestyy valikkoon."
