@@ -1,0 +1,16 @@
+- name: "teksti tiedosto"
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: "Luo tiedosto ja oikeudet"
+      copy:
+        dest: /tmp/esimerkki.txt
+        content: |
+          0 tarkoittaa normaalia tiedostoa
+          6 tarkoittaa omisjatan oikeusksia eli r ja w (4+2)
+          4 tarkoittaa ryhmän oikeuksia eli r (4)
+          0 tarkoittaa muiden oikeuksia 0 = ei mitään
+        owner: jari
+        group: sudoless
+        mode: "0640"

@@ -1,0 +1,14 @@
+- name: "Nginx asennus"
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
+
+- name: "Nginx konfiguraation"
+  copy:
+    src: default
+    dest: /etc/nginx/sites-available/default
+    owner: root
+    group: root
+    mode: '0644'
+  notify: restart nginx
