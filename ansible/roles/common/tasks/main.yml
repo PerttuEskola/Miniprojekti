@@ -1,0 +1,9 @@
+- apt:
+    update_cache: yes
+
+- apt:
+    name: 
+      - curl
+      - git
+      - wget
+    state: present

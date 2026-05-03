@@ -1,0 +1,13 @@
+- name: Enable contrib non-free repositories
+  apt_repository:
+    repo: "deb http://deb.debian.org/debian {{ ansible_distribution_release }} main contrib non-free non-free-firmware"
+    state: present
+
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install Steam
+  apt:
+    name: steam
+    state: present
