@@ -15,3 +15,18 @@
       - mangohud
       - gamemode
     state: present
+
+- name: Download Discord .deb package
+  get_url: 
+    url: "https://discord.com/api/download?platform=linux&format=deb"
+    dest: "/tmp/discord.deb"
+    force: no
+
+- name: Install Discrd from .deb
+  apt:
+    deb: "/tmp/discord.deb"
+
+- name: Fix missing dependencies
+  apt:
+    state: present
+    update_cache: yes
