@@ -7,7 +7,11 @@
   apt:
     update_cache: yes
 
-- name: Install Steam
+- name: Install gaming packages
   apt:
-    name: steam
+    name:
+      - steam
+      - lutris
+      - mangohud
+      - gamemode
     state: present
