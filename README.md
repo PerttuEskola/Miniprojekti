@@ -17,6 +17,11 @@ Asentaa:
 - GameMode
 - MangoHud, sekä ManhoHudin konfigurointi
 
+## Vaatimukset
+- Debian pohjainen järjestelmä
+- Ansible asennettuna
+- Sudo-oikeudet
+
 ## Käyttöönotto
 Asenna Ansible
 ````bash
@@ -63,7 +68,7 @@ Idempotentin jälkeen käynnistä Steam.
 steam
 ````
 
-### Steamiin kirjauduttua "**Settings**" --> "**Compability**" ja valitaan Proton versio.
+### Steamiin kirjauduttua "**Settings**" --> "**Compatibility**" ja valitaan Proton versio.
 <img width="1890" height="1496" alt="image" src="https://github.com/user-attachments/assets/8167b2d4-413c-4def-9d44-4e494a09ed9f" />
 
 ### Proton asentuu.
@@ -77,12 +82,6 @@ gamemoderun mangohud %command%
 ````
 <img width="1392" height="280" alt="image" src="https://github.com/user-attachments/assets/ec37d043-cc5e-43c2-b578-01326e275004" />
 
-
-
-## Vaatimukset
-- Debian pohjainen järjestelmä
-- Ansible asennettuna
-- Sudo-oikeudet
 
 ## Lopputulos
 Valmis peliympäristö.
