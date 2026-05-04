@@ -1,3 +1,0 @@
-- copy:
-    dest: /tmp/hei-ansible
-    content: "Hei maailma\n"
