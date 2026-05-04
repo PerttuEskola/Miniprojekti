@@ -1,5 +1,5 @@
 # Miniprojekti
-# Linux gaming essentials
+## Linux gaming essentials
 
 Automatisoi valmiin Linux-peliympäristön asennus Debian käyttöjärjestelmälle yhdellä komennolla.
 
@@ -15,12 +15,12 @@ Asentaa:
 - **Proton GE** (Yhteensopivuustyökalu Steam Playlle, joka perustuu Wineen ja lisäkomponentteihin)
 - **Ajurit ja arkkitehtuuri** (Vulkan ja i386-arkkitehtuuri)
 - **GameMode** (Optimoi Linux-järjestelmän suorituskykyä tarvittaessa)
-- **MangoHud** (Monitorioi esim. FPS:ää, lämpötiloja ja suorittimen/näytönohjaimen kuormitusta.)
+- **MangoHud** (Monitoroi esim. FPS:ää, lämpötiloja ja suorittimen/näytönohjaimen kuormitusta.)
 
 ## Vaatimukset
-- Debian pohjainen järjestelmä
-- Ansible asennettuna
-- Sudo-oikeudet
+- Debian pohjainen järjestelmä.
+- Ansiblen ja ssh asennus.
+- Sudo-oikeudet.
 
 ## Käyttöönotto
 Asenna Ansible
@@ -91,7 +91,7 @@ Suorituskykytyökalut konfiguroituna.
 ### Asennetut sovellukset käynnistettynä.
 <img width="2047" height="1181" alt="image" src="https://github.com/user-attachments/assets/6e48ef33-d432-412e-b324-90b81fefd10f" />
 
-### MangoHud pelin siällä.
+### MangoHud pelin sisällä.
 <img width="2879" height="1648" alt="image" src="https://github.com/user-attachments/assets/a2f63a09-ce27-44e6-8b20-9220f72f9181" />
 
 
