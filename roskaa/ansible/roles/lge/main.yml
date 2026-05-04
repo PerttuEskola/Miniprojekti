@@ -1,5 +1,3 @@
-    # Määritetään asennusta tekevä käyttäjä, jotta config-tiedostot menevät oikeaan kotikansioon
     user_name: "{{ lookup('env', 'USER') }}"
-    # Määritetään ladattava Proton-GE versio
     proton_ge_version: "GE-Proton8-25"
     proton_ge_url: "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/{{ proton_ge_version }}/{{ proton_ge_version }}.tar.gz"
