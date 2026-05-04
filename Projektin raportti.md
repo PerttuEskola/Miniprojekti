@@ -31,5 +31,13 @@ Lisätään site.yml:
 
 
 # Luodaan roolit
+Luotiin yksi rooli, "**LGE**", jonka sisällä on muut tarvittavat konfiguraatiotiedostos.  
+````
+mkdir -p roles/lge/files  
+mkdir -p roles/lge/handlers
+mkdir -p roles/lge/tasks
+mkdir -p roles/lge/vars
+````
+
 <img width="438" height="345" alt="Puurakenne" src="https://github.com/user-attachments/assets/27a5c15b-d4ff-43a8-8192-8a8c0151c20e" />  
 
