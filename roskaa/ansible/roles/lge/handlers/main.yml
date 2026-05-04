@@ -1,3 +1,0 @@
-    - name: Notify Steam restart
-      debug:
-        msg: "Proton-GE is installed. If Steam is open, restart it. Now Proton will appear in Steam's menu."
