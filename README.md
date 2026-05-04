@@ -9,13 +9,13 @@ Ansiblella asennetaan ja konfiguroidaan pelityökalut automaattisesti, säästä
 
 ## Ominaisuudet 
 Asentaa:
-- Steam
-- Lutris
-- Discord
-- Proton
-- Ajurit
-- GameMode
-- MangoHud, sekä ManhoHudin konfigurointi
+- **Steam** (Pelikirjasto ja kauppa)
+- **Lutris** (Pelialusta: GOG, Epic Games, Humble Bundle ja Steam)
+- **Discord** (Pelaajien suosima viestintä sovellus)
+- **Proton GE** (Yhteensopivuustyökalu Steam Playlle, joka perustuu Wineen ja lisäkomponentteihin)
+- **Ajurit ja arkkitehtuuri** (Vulkan ja i386-arkkitehtuuri)
+- **GameMode** (Optimoi Linux-järjestelmän suorituskykyä tarvittaessa)
+- **MangoHud** (Monitorioi esim. FPS:ää, lämpötiloja ja suorittimen/näytönohjaimen kuormitusta.)
 
 ## Vaatimukset
 - Debian pohjainen järjestelmä
