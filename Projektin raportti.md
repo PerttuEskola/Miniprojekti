@@ -45,6 +45,17 @@ Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.
 
 Taskin sisällä on määriteltynä tehtävät, ladattavat paketit, ajurit ja tiedostopolut.  
 Koodia rakennetaan osa kerrallaan, pikkuhiljaa kokeillen toimiiko se vai ei. 
+Steamia varten pitää lisätä contrib ja non-free repositoriot, jotta se toimisi:  
+````
+- apt_repository:
+    repo: "deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware"
+````
+Myös discordia varten pitää ladata .deb paketti:  
+````
+get_url:
+  url: "https://discord.com/api/download?platform=linux&format=deb"
+  dest: "/tmp/discord.deb"
+````
 <img width="800" height="1200" alt="task_koodi" src="https://github.com/user-attachments/assets/a32ec8cf-08bb-4e9c-aee3-9d20522229e7" />  
 
 Handlerin sisällä on viesti joka ilmoittaa että Proton on latautunut.  
