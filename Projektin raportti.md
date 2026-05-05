@@ -44,8 +44,8 @@ Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.
 <img width="1698" height="69" alt="Näyttökuva 2026-05-04 183415" src="https://github.com/user-attachments/assets/05e690e4-fc3c-454d-ad8d-b3adb9a51772" />  
 
 Taskin sisällä on määriteltynä tehtävät, ladattavat paketit, ajurit ja tiedostopolut.  
-Koodia rakennetaan osa kerrallaan, pikkuhiljaa kokeillen toimiiko se vai ei. 
-Steamia varten pitää lisätä contrib ja non-free repositoriot, jotta se toimisi:  
+Koodia rakennetaan osa kerrallaan, pikkuhiljaa kokeillen toimiiko se vai ei.  
+Steamia varten pitää lisätä contrib ja non-free repositoriot, jotta se toimisi:    
 ````
 - apt_repository:
     repo: "deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware"
