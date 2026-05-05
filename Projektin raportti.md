@@ -70,11 +70,11 @@ get_url:
 ### Filesin sisällä on MangoHud:in konfiguraatiotiedosto.  
 <img width="457" height="486" alt="Näyttökuva 2026-05-04 183245" src="https://github.com/user-attachments/assets/546c2840-9977-4933-a0df-15a018615848" />  
 
-### Ongelmilta ei vältytty. Koneesta loppui tila kesken asennuksen. 
+### Ongelmilta ei vältytty. Kun ajettiin playbook, niin koneesta loppui tila kesken asennuksen. 
 Ratkaisu oli uuden virutaalikoneen luominen ja sinne koodin kopiominen.
 <img width="2583" height="966" alt="image" src="https://github.com/user-attachments/assets/f5de29b1-bca9-4576-9772-8a28f78eee81" />
 
-### Playbookin suoritus onnistuneesti.
+### Uuden koneen luomisen jälkeen, playbookin ajettiin onnistuneesti.
 Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan toimimaan.
 <img width="2036" height="1179" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
 
