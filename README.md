@@ -15,7 +15,7 @@ Asentaa:
 - **Proton GE** (Yhteensopivuustyökalu Steam Playlle, joka perustuu Wineen ja lisäkomponentteihin)
 - **Ajurit ja arkkitehtuuri** (Vulkan ja i386-arkkitehtuuri)
 - **GameMode** (Optimoi Linux-järjestelmän suorituskykyä tarvittaessa)
-- **MangoHud** (Monitoroi esim. FPS:ää, lämpötiloja ja suorittimen/näytönohjaimen kuormitusta.)
+- **MangoHud** (Monitoroi esim. FPS:ää, lämpötiloja ja suorittimen/näytönohjaimen kuormitusta)
 
 ## Vaatimukset
 - Debian pohjainen järjestelmä.
