@@ -73,7 +73,7 @@ get_url:
 ### Ongelmilta ei vältytty. 
 Kun ajettiin playbook, niin koneesta loppui tila kesken asennuksen. 
 
-Ratkaisu oli uuden enemmän tilaa omaaman virutaalikoneen luominen ja sinne koodin kopiominen.
+Ratkaisu oli uuden enemmän tilaa omaavan virutaalikoneen luominen ja sinne koodin kopiominen.
 <img width="2583" height="966" alt="image" src="https://github.com/user-attachments/assets/f5de29b1-bca9-4576-9772-8a28f78eee81" />
 
 ### Uuden koneen luomisen jälkeen, playbook ajettiin onnistuneesti.
