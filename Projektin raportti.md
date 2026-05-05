@@ -98,9 +98,9 @@ Lutris on pelikirjasto joka sisältää eri pelialustoja ja kauppoja.
 
 
 # Yhteenveto
-Toimiva peliympäristö Debianiin ansiblen avulla. Tavoitteena oli yhden ansible plybookin suorittaminen tämän saavuttamiseksi. Playbook jaettiin muuttujuiin, tehtäviin ja tiedostoihin.
+Toimiva peliympäristö Debianiin ansiblen avulla. Tavoitteena oli yhden ansible plybookin suorittaminen tämän saavuttamiseksi. Playbook jaettiin muuttujiin, tehtäviin ja tiedostoihin.
 
-Projekstissa asennettin keskeiset pelialustan vaatimukset, kuten arkkitehtuurit, repositorit, ajurit ja sovellukset. Lopputulos olis idemopotenssin saavuttaminen ja valmispeliympäristö.
+Projektissa asennettin keskeiset pelialustan vaatimukset, kuten arkkitehtuurit, repositorit, ajurit ja sovellukset. Lopputulos olis idempotenssin saavuttaminen ja valmis peliympäristö.
 
 
 
