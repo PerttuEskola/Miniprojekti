@@ -45,10 +45,16 @@ Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.
 
 Taskin sisällä on määriteltynä tehtävät, ladattavat paketit, ajurit ja tiedostopolut.  
 Koodia rakennetaan osa kerrallaan, pikkuhiljaa kokeillen toimiiko se vai ei.  
-Steamia varten pitää lisätä contrib ja non-free repositoriot, jotta se toimisi:    
+Steamia varten pitää lisätä contrib ja non-free repositoriot, sekä i386-arkkitehtuuri jotta se toimisi:    
 ````
 - apt_repository:
     repo: "deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware"
+````
+````
+- name: "Add i386-architecture"
+  command: dpkg --add-architecture i386
+  register: add_arch
+  changed_when: false
 ````
 Myös discordia varten pitää ladata .deb paketti:  
 ````
