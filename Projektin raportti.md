@@ -30,7 +30,7 @@ Lisätään site.yml:
 ````
 
 
-## Luodaan roolit
+## Luodaan rooli
 Luotiin yksi rooli, "**LGE**", jonka sisällä on muut tarvittavat konfiguraatiotiedostos.  
 ````
 mkdir -p roles/lge/files  
@@ -40,7 +40,7 @@ mkdir -p roles/lge/vars
 ````
 <img width="438" height="345" alt="Puurakenne" src="https://github.com/user-attachments/assets/27a5c15b-d4ff-43a8-8192-8a8c0151c20e" />  
 
-Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.  
+### Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.  
 <img width="1698" height="69" alt="Näyttökuva 2026-05-04 183415" src="https://github.com/user-attachments/assets/05e690e4-fc3c-454d-ad8d-b3adb9a51772" />  
 
 ### Taskin sisällä on määriteltynä tehtävät, ladattavat paketit, ajurit ja tiedostopolut.  
