@@ -59,7 +59,7 @@ Suorita ansible-kansion sisällä playbook.
 ````bash
 ansible-playbook site.yml -K
 ````
-Idenpotentti saadaan komennon uudelleen suorittamisen jälkeen.
+Idempotentti saadaan komennon uudelleen suorittamisen jälkeen.
 
 ## Protonin konfigurointi.
 
@@ -90,6 +90,9 @@ Suorituskykytyökalut konfiguroituna.
 
 ### Asennetut sovellukset käynnistettynä.
 <img width="2047" height="1181" alt="image" src="https://github.com/user-attachments/assets/6e48ef33-d432-412e-b324-90b81fefd10f" />
+
+### Lutris avattuna.
+<img width="626" height="362" alt="image" src="https://github.com/user-attachments/assets/d797c6d6-5791-4adf-a9a7-24032584d605" />
 
 ### MangoHud pelin sisällä.
 <img width="2879" height="1648" alt="image" src="https://github.com/user-attachments/assets/a2f63a09-ce27-44e6-8b20-9220f72f9181" />
