@@ -85,10 +85,10 @@ Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan to
 Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
 
-### Ladatut sovellukset avattuna.
+### Onnistuneen playbook ajon jälkeen saadaan sovellukset auki. Sovellukset saa auki joko terminaalista, kirjoittamalla sinne komennoksi sovelluksen nimen, tai avaamalla Debianin sovellus valikosta. 
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/0e3ea54a-7638-4e5a-9e91-0b6cba5b4c06" />
 
-### MangoHud toiminnassa.
+### MangoHud toiminnassa. MangoHudilla voi tarkastella pelin, ja koneen komponenttien toimintaa. 
 <img width="271" height="127" alt="image" src="https://github.com/user-attachments/assets/715beec0-165c-4ebd-a803-c20b53f9aba3" />
 
 
