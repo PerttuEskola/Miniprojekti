@@ -2,7 +2,7 @@
 Projektisssa toteutetaan automatisoitu Debian-peliympäristö käyttämällä Ansiblea.  
 Tavoitteena on siis luoda puhdas Debian kone valmiiksi peliympäristöksi yhdellä komennolla.  
 
-# Ansible konfiguraatio
+## Ansible konfiguraatio
 Luodaan tarvittavat tiedostot ansiblea varten:  
 ````
 micro hosts.ini
@@ -30,7 +30,7 @@ Lisätään site.yml:
 ````
 
 
-# Luodaan roolit
+## Luodaan roolit
 Luotiin yksi rooli, "**LGE**", jonka sisällä on muut tarvittavat konfiguraatiotiedostos.  
 ````
 mkdir -p roles/lge/files  
@@ -79,14 +79,14 @@ Ratkaisu oli uuden virutaalikoneen luominen ja sinne koodin kopiominen.
 ansible-playbook site.yml -K
 ````
 Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan toimimaan.
-<img width="2036" height="1179" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
+<img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
 
 ### Saatiin idempotenssi aikaan. 
 Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
-<img width="2041" height="1175" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
+<img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
 
 ### Ladatut sovellukset avattuna.
-<img width="2047" height="1181" alt="image" src="https://github.com/user-attachments/assets/0e3ea54a-7638-4e5a-9e91-0b6cba5b4c06" />
+<img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/0e3ea54a-7638-4e5a-9e91-0b6cba5b4c06" />
 
 ### MangoHud toiminnassa.
 <img width="271" height="127" alt="image" src="https://github.com/user-attachments/assets/715beec0-165c-4ebd-a803-c20b53f9aba3" />
