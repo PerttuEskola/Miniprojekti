@@ -70,11 +70,13 @@ get_url:
 ### Filesin sisällä on MangoHud:in konfiguraatiotiedosto.  
 <img width="457" height="486" alt="Näyttökuva 2026-05-04 183245" src="https://github.com/user-attachments/assets/546c2840-9977-4933-a0df-15a018615848" />  
 
-### Ongelmilta ei vältytty. Kun ajettiin playbook, niin koneesta loppui tila kesken asennuksen. 
-Ratkaisu oli uuden virutaalikoneen luominen ja sinne koodin kopiominen.
+### Ongelmilta ei vältytty. 
+Kun ajettiin playbook, niin koneesta loppui tila kesken asennuksen. 
+
+Ratkaisu oli uuden enemmän tilaa omaaman virutaalikoneen luominen ja sinne koodin kopiominen.
 <img width="2583" height="966" alt="image" src="https://github.com/user-attachments/assets/f5de29b1-bca9-4576-9772-8a28f78eee81" />
 
-### Uuden koneen luomisen jälkeen, playbookin ajettiin suoritus onnistuneesti.
+### Uuden koneen luomisen jälkeen, playbook ajettiin onnistuneesti.
 ````bash
 ansible-playbook site.yml -K
 ````
@@ -82,10 +84,11 @@ Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan to
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
 
 ### Saatiin idempotenssi aikaan. 
-Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
+Kun playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
 
-### Onnistuneen playbook ajon jälkeen saadaan sovellukset auki. Sovellukset saa auki joko terminaalista, kirjoittamalla sinne komennoksi sovelluksen nimen, tai avaamalla Debianin sovellus valikosta. 
+### Onnistuneen playbook ajon jälkeen saadaan sovellukset auki. 
+Sovellukset saa auki joko terminaalista, kirjoittamalla sinne komennoksi sovelluksen nimen, tai avaamalla sovellus valikosta. 
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/0e3ea54a-7638-4e5a-9e91-0b6cba5b4c06" />
 
 ### MangoHud toiminnassa. 
