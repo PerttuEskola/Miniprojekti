@@ -84,7 +84,7 @@ Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan to
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
 
 ### Saatiin idempotenssi aikaan. 
-Kun playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
+Kun playbook ajetaan uudelleen, yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
 
 ### Onnistuneen playbook ajon jälkeen saadaan sovellukset auki. 
