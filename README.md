@@ -102,4 +102,4 @@ Suorituskykytyökalut konfiguroituna.
 Perttu Eskola & Toni Hepola
 
 ## Lisenssi
-Tämä projekti on lisenssoitu GNU General Public Licence v3.0 -lisenssillä
+Tämä projekti on lisenssoitu GNU General Public Licence v3.0 -lisenssillä.
