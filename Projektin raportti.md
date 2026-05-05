@@ -71,5 +71,22 @@ Filesin sisällä on MangoHud:in konfiguraatiotiedosto.
 <img width="457" height="486" alt="Näyttökuva 2026-05-04 183245" src="https://github.com/user-attachments/assets/546c2840-9977-4933-a0df-15a018615848" />  
 
 
+## Lähteet
+- Discord: https://discord.com/download
+
+- Proton GE: https://github.com/gloriouseggroll/proton-ge-custom
+
+- Wiki Debian: https://wiki.debian.org/Steam
+
+- Wiki Debian: https://packages.debian.org/trixie/mesa-vulkan-drivers
+
+- Lutris: https://lutris.net/
+
+- MangoHud: https://github.com/flightlessmango/Mangohud
+
+- Gamemode: https://github.com/feralinteractive/gamemode
+
+- Reddit: https://www.reddit.com/r/linux_gaming/
+
   
 
