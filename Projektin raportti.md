@@ -74,12 +74,15 @@ get_url:
 Ratkaisu oli uuden virutaalikoneen luominen ja sinne koodin kopiominen.
 <img width="2583" height="966" alt="image" src="https://github.com/user-attachments/assets/f5de29b1-bca9-4576-9772-8a28f78eee81" />
 
-### Uuden koneen luomisen jälkeen, playbookin ajettiin onnistuneesti.
+### Uuden koneen luomisen jälkeen, playbookin ajettiin suoritus onnistuneesti.
+````bash
+ansible-playbook site.yml -K
+````
 Handleri muistuttaa steamin uudelleen käynnistyksestä, jotta proton saadaan toimimaan.
 <img width="2036" height="1179" alt="image" src="https://github.com/user-attachments/assets/13294bac-b222-4ffc-8ed0-09cb8f9b366b" />
 
 ### Saatiin idempotenssi aikaan. 
-Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
+Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purkaa.
 <img width="2041" height="1175" alt="image" src="https://github.com/user-attachments/assets/a854e594-c9c4-4e77-9129-b5b925c04c11" />
 
 ### Ladatut sovellukset avattuna.
@@ -106,6 +109,3 @@ Yksi tehtävistä ohitetaan, sillä kyseistä tiedostoa ei tarvitse enää purka
 - Gamemode: https://github.com/feralinteractive/gamemode
 
 - Reddit: https://www.reddit.com/r/linux_gaming/
-
-  
-
