@@ -38,7 +38,7 @@ mkdir -p roles/lge/handlers
 mkdir -p roles/lge/tasks
 mkdir -p roles/lge/vars
 ````
-
+<img width="438" height="345" alt="Puurakenne" src="https://github.com/user-attachments/assets/27a5c15b-d4ff-43a8-8192-8a8c0151c20e" />  
 
 Varsin sisällä on määriteltynä käyttäjä ja proton muuttujat.  
 <img width="1698" height="69" alt="Näyttökuva 2026-05-04 183415" src="https://github.com/user-attachments/assets/05e690e4-fc3c-454d-ad8d-b3adb9a51772" />  
@@ -53,5 +53,5 @@ Filesin sisällä on MangoHud:in konfiguraatiotiedosto.
 <img width="457" height="486" alt="Näyttökuva 2026-05-04 183245" src="https://github.com/user-attachments/assets/546c2840-9977-4933-a0df-15a018615848" />  
 
 
-<img width="438" height="345" alt="Puurakenne" src="https://github.com/user-attachments/assets/27a5c15b-d4ff-43a8-8192-8a8c0151c20e" />  
+  
 
