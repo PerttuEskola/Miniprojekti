@@ -92,6 +92,7 @@ Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedos
 <img width="271" height="127" alt="image" src="https://github.com/user-attachments/assets/715beec0-165c-4ebd-a803-c20b53f9aba3" />
 
 # Yhteenveto
+Lopputulokseksi saatiin toimiva peliympäristö Debianiin ansiblen avulla.  
 
 
 
