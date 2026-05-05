@@ -121,3 +121,7 @@ Projektissa asennettin keskeiset pelialustan vaatimukset, kuten arkkitehtuurit, 
 - Gamemode: https://github.com/feralinteractive/gamemode
 
 - Reddit: https://www.reddit.com/r/linux_gaming/
+
+- Karvinen, T. Hello ansible: https://terokarvinen.com/hello-ansible/
+
+- Karvinen, T. Apache installed with Ansible - quick notes: https://terokarvinen.com/apache-ansible/
