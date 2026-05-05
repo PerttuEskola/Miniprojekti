@@ -10,7 +10,7 @@ Ansiblella asennetaan ja konfiguroidaan pelityökalut automaattisesti, säästä
 ## Ominaisuudet 
 Asentaa:
 - **Steam** (Pelikirjasto ja kauppa)
-- **Lutris** (Pelialusta: GOG, Epic Games, Humble Bundle, Steam jne)
+- **Lutris** (Pelialusta: GOG, Epic Games, Humble Bundle, Steam, jne)
 - **Discord** (Pelaajien suosima viestintä sovellus)
 - **Proton GE** (Yhteensopivuustyökalu Steam Playlle, joka perustuu Wineen ja lisäkomponentteihin)
 - **Ajurit ja arkkitehtuuri** (Vulkan ja i386-arkkitehtuuri)
