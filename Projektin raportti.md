@@ -88,8 +88,14 @@ Playbook ajetaan uudelleen. Yksi tehtävistä ohitetaan, sillä kyseistä tiedos
 ### Onnistuneen playbook ajon jälkeen saadaan sovellukset auki. Sovellukset saa auki joko terminaalista, kirjoittamalla sinne komennoksi sovelluksen nimen, tai avaamalla Debianin sovellus valikosta. 
 <img width="1700" height="800" alt="image" src="https://github.com/user-attachments/assets/0e3ea54a-7638-4e5a-9e91-0b6cba5b4c06" />
 
-### MangoHud toiminnassa. MangoHudilla voi tarkastella pelin, ja koneen komponenttien toimintaa. 
+### MangoHud toiminnassa. 
+MangoHudilla voi tarkastella pelin, ja koneen komponenttien toimintaa. 
 <img width="271" height="127" alt="image" src="https://github.com/user-attachments/assets/715beec0-165c-4ebd-a803-c20b53f9aba3" />
+
+### Lutris asennettuna. 
+Lutris on pelikirjasto joka sisältää eri pelialustoja ja kauppoja.
+<img width="1126" height="842" alt="image" src="https://github.com/user-attachments/assets/bdf2d3ed-443b-41b9-a869-6d3071ba89f6" />
+
 
 # Yhteenveto
 Toimiva peliympäristö Debianiin ansiblen avulla. Tavoitteena oli yhden ansible plybookin suorittaminen tämän saavuttamiseksi. Playbook jaettiin muuttujuiin, tehtäviin ja tiedostoihin.
